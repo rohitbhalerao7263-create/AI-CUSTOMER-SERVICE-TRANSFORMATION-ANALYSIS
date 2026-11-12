@@ -1,0 +1,213 @@
+AI Customer Service Transformation Analysis | Power BI
+
+Project Overview
+
+This project analyses customer service operations using Microsoft Power BI to evaluate AI-supported and Human-supported customer service performance.
+
+The objective is to transform raw customer service ticket data into meaningful business insights through data cleaning, DAX calculations, interactive dashboards and management recommendations.
+
+The project demonstrates practical Business Analyst skills in data analysis, business performance monitoring, data visualisation and data-driven decision-making.
+
+Business Problem
+
+Customer service organisations need to understand whether AI-powered support can improve operational efficiency while maintaining customer satisfaction.
+
+Management needs answers to questions such as:
+
+- How effectively are customer tickets being resolved?
+- How does AI support compare with Human support?
+- Which support mode provides faster first responses?
+- What is the average customer satisfaction score?
+- Which issues generate the highest ticket volume?
+- Which tickets are escalated or reopened?
+- How can customer service operations be improved?
+
+Project Objectives
+
+1. Analyse overall customer service performance.
+2. Compare AI and Human support effectiveness.
+3. Measure ticket resolution and escalation rates.
+4. Evaluate first response and resolution times.
+5. Analyse customer satisfaction (CSAT).
+6. Identify ticket trends and operational bottlenecks.
+7. Develop actionable management recommendations.
+
+Tools & Technologies
+
+Tool| Purpose
+Microsoft Excel| Dataset source
+Power BI Desktop| Dashboard development
+Power Query| Data cleaning and transformation
+DAX| Business calculations and KPIs
+GitHub| Project documentation and portfolio
+
+Dataset Description
+
+- Dataset: AI Customer Service Ticket Data
+- Original records: 600 simulated tickets
+- Columns: 15
+- Format: Excel
+- Worksheet: Raw_Ticket_Data
+
+Dataset Columns
+
+1. Ticket_ID
+2. Ticket_Date
+3. Support_Channel
+4. Issue_Type
+5. Priority
+6. Customer_Segment
+7. Region
+8. Support_Mode
+9. Assigned_Agent
+10. First_Response_Minutes
+11. Resolution_Time_Hours
+12. Resolved
+13. Escalated
+14. Reopened
+15. CSAT_Score
+
+Data Disclaimer: This is a synthetic practice dataset created for educational and portfolio purposes. It does not contain actual company or customer records.
+
+Data Cleaning & Preparation
+
+Data preparation was performed using Power Query.
+
+Key activities included:
+
+- Removing blank rows.
+- Trimming unnecessary spaces.
+- Standardising text formatting.
+- Handling missing agent information.
+- Removing duplicate Ticket_ID records.
+- Correcting date and numeric data types.
+- Checking categorical and Yes/No fields.
+- Loading the cleaned data into Power BI.
+
+DAX Measures & KPIs
+
+A total of 20 DAX measures were developed.
+
+Key measures include:
+
+- Total Tickets
+- Resolved Tickets
+- Unresolved Tickets
+- Resolution Rate
+- Average First Response Time
+- Average Resolution Time
+- Average CSAT
+- Escalated Tickets
+- Escalation Rate
+- Reopened Tickets
+- Reopened Rate
+- AI Supported Tickets
+- Human Supported Tickets
+- AI Resolution Rate
+- Human Resolution Rate
+- AI Average Response Time
+- Human Average Response Time
+- AI Average CSAT
+- Human Average CSAT
+- AI vs Human CSAT Gap
+
+Power BI Dashboard
+
+The project contains two report pages.
+
+Page 1: AI Customer Service Dashboard
+
+Dashboard components:
+
+- Seven KPI cards.
+- AI vs Human Resolution Rate comparison.
+- AI vs Human Customer Satisfaction comparison.
+- Monthly Ticket Volume Trend.
+- Customer Tickets by Issue Type.
+- Ticket Distribution by Support Channel.
+- Customer Satisfaction by Support Agent.
+- Escalated Tickets by Priority.
+- Average Response Time comparison.
+- Tickets by Customer Segment.
+
+Interactive slicers:
+
+- Region
+- Support Mode
+- Priority
+- Customer Segment
+
+Page 2: Management Insights & Recommendations
+
+This page focuses on:
+
+- AI vs Human Support Performance.
+- Customer Satisfaction Analysis.
+- Ticket Resolution Performance.
+- First Response Time Analysis.
+- Escalation Analysis.
+- Reopened Ticket Analysis.
+- Customer Issue Analysis.
+- Support Channel Analysis.
+- Agent Performance Analysis.
+- Customer Segment Analysis.
+
+Management Recommendations
+
+The analysis provides opportunities to:
+
+1. Expand AI automation for repetitive customer queries.
+2. Retain Human agents for complex customer issues.
+3. Improve first response and resolution times.
+4. Reduce unnecessary ticket escalations.
+5. Improve customer satisfaction.
+6. Investigate reopened tickets.
+7. Allocate resources based on customer demand.
+8. Monitor service performance regularly.
+
+Business Value
+
+This project demonstrates how Power BI can help organisations:
+
+- Monitor customer service performance.
+- Compare AI and Human support operations.
+- Identify operational improvement opportunities.
+- Improve customer experience.
+- Support data-driven management decisions.
+
+Skills Demonstrated
+
+- Business Analysis
+- Data Cleaning
+- Power Query
+- Data Modelling Fundamentals
+- DAX
+- KPI Development
+- Power BI Dashboard Development
+- Data Visualisation
+- Customer Service Analytics
+- Business Insights
+- Management Reporting
+
+Project Files
+
+The repository will contain:
+
+- Power BI dashboard (.pbix)
+- Original Excel dataset (.xlsx)
+- Project documentation (.docx)
+- Dashboard screenshots
+- README.md
+
+Conclusion
+
+The AI Customer Service Transformation Analysis demonstrates a complete practical analytics workflow, from raw data preparation to interactive dashboard development and management recommendations.
+
+The project highlights the importance of combining AI automation with Human support to improve customer service operations through data-driven decisions.
+
+---
+
+Project Category: Business Analyst Portfolio
+Domain: Customer Service Analytics
+Technology: Microsoft Power BI, Power Query and DAX
+Status: Completed – Portfolio Documentation and Publication in Progress
